@@ -28,7 +28,7 @@ public class DBConfiguration {
     }
     @Profile("prod")
     @Bean
-    public String produtionDatabaseConnection(){
+    public String productionDatabaseConnection(){
         System.out.println("DB connection for Production - MySQL");
         System.out.println(driverClassName);
         System.out.println(url);
